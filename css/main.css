@@ -69,11 +69,20 @@ html {
 
 }
 
-@media (prefer-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
   body {
     background-color: #111;
   }
+
+  .banner {
+    background-color: #333;
+  }
+
+  .banner h1 {
+    color: #ccc;
+  }
+
 }
 /* stylelint-disable media-feature-name-no-unknown */
 
